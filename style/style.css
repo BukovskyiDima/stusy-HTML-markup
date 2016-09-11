@@ -1,0 +1,286 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-image: url(../images/background.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+a {
+	text-decoration: none;
+	color: #231f20;
+}
+
+.main_head, main, .main_foot{
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.main_head {
+	margin-top: 40px;
+	height: 31%;
+}
+
+.poster{
+	height: 238px;
+	width: 21.5%;
+	float: left;
+}
+
+.poster > a{
+    display: flex;
+}
+
+.headline{
+	width: 78.5%;
+    display: inline-block;
+}
+
+.banner{
+	height: 200px;
+	background-image: url(../images/backgroundHeader.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.banner > img{
+    margin: 20px 0 0 20px;
+}
+
+.banner > span{
+    font-size: 45px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 55px 10px;
+    display: inline-block;
+    width: 67%;
+}
+
+nav{
+	background-color: #ffc423;;
+}
+
+.menu{
+	display: inline-flex;
+    margin: 10px 0;
+}
+
+.menu > li{
+	list-style-type: none;
+    padding: 0 4px 0 4px;
+}
+
+.menu > li > a{
+	font-size: 11px;
+	font-weight: bold;
+	font-family: "Arial";
+	text-decoration: none; 
+	color: rgb(35, 31, 32);
+}
+
+.menu > li > a:hover{
+	border-bottom: 1px solid #231f20;
+}
+
+main{
+	overflow: hidden;
+}
+
+.container{
+	background-color: #ffffff;
+	width: 70.5%;
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+}
+
+figure{
+    display: inline-block;
+	vertical-align: top;
+}
+
+.text{
+	display: inline-block;
+    width: 80%;
+    vertical-align: top;
+}
+
+.text > h3{
+    font-size: 13px;
+    font-family: "Arial Rounded MT Bold";
+    color: rgb(240, 81, 51);
+    margin: 20px 0 0 20px;
+}
+
+.text > p{
+    font-size: 10px;
+    font-family: "Arial";
+    color: rgb(35, 31, 32);
+    margin: 5px 0 0 20px;
+    line-height: 1.7;
+}
+
+.button{
+    height: 45px;
+    padding: 30px 0 20px 0;
+}
+
+.button > div{
+    height: 45px;
+    width: 36%;
+    margin: auto;
+    background-color: #005581;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.button > div:active{
+	bottom: -2px;
+}
+
+.button > div > img,.button > div > p{
+    float: left;
+}
+.button > div > img{
+	margin: 5px 5px 5px 15px;
+}
+
+.button > div > p{
+	color: #ffffff;
+    margin: 14px 0;
+}
+
+.gallery{
+	background-color: #e5e6e6;
+	text-align: center;
+	height: 297px;
+}
+
+.gallery > h3{
+    font-size: 13px;
+    font-family: "Arial Rounded MT Bold";
+    color: rgb(240, 81, 51);
+    padding: 10px 0 10px;
+}
+
+.gal-img{
+	margin: 10px 5px 5px;
+}
+
+.gal-img > img{
+	border: 1px solid #005082;
+}
+
+.gal-img > figcaption{
+	font-size: 11px;
+	font-family: "Arial";
+	color: rgb(242, 101, 49);
+	font-weight: bold;
+	line-height: 0.97;
+    width: 65%;
+    margin: auto;
+}
+
+.info{
+	background-color: #4889af;
+	display: inline-block;
+	vertical-align: top;
+	width: 29.5%;
+	float: left;
+}
+
+.social-net{
+	margin: 15px 9px;
+    display: inline-flex;
+}
+
+.social-net > li{
+    list-style-type: none;	
+}	
+
+.social-net > li > a{
+	padding: 0 5px;
+}	
+
+.social-net > li:active{
+	bottom: -2px;
+}
+
+.category{
+    display: inline-block;
+	margin: 10px 20px 20px;
+}
+
+.category > li{
+	list-style-type: none;
+}
+
+.category > li > a{
+	font-size: 13px;
+	font-family: "Arial";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 1.308;
+}
+
+.category > li > a:hover{
+	border-bottom: 1px solid white;
+}
+
+.category > li:nth-child(1){
+	font-size: 13px;
+	font-family: "Arial";
+	color: rgb(255, 196, 37);
+	font-weight: bold;
+	line-height: 1.308;
+}
+
+article{
+	margin: 0 20px;
+    padding: 20px 0;
+    border-top: 1px solid #15648f;
+}
+
+article > h3{
+	font-size: 13px;
+	font-family: "Arial";
+	color: rgb(255, 196, 37);
+	font-weight: bold;
+	line-height: 1.308;
+}
+
+article > p{
+	font-size: 12px;
+	font-family: "Arial";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 1.308;
+	padding: 10px 0 11px 0;
+}
+
+.main_foot{
+	margin-bottom: 10px;
+	background-color: #ffc423;
+	overflow: hidden;
+}
+
+.main_foot > p{
+	float: left;
+	padding: 6px 32px;
+	color: #231f20;
+}
+
+.main_foot > span:nth-child(2){
+	float: right;
+	padding: 6px 24px;
+	color: #231f20;
+}
+
+.main_foot > p > a:hover{
+	border-bottom: 1px solid #231f20;
+}
